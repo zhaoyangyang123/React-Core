@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02FFD6C2E130E5DF0CECE1D45B834B98 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 261DCB2A0F94C7E4CC20127523A76C45 /* ReplaceMe.m */; };
+		3577728E6391A360272C5789CC6B25AA /* React-Core-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F76996EB18B3B95CFD9219C5955368 /* React-Core-dummy.m */; };
+		38ED3CD585F7119F42F2989ABAD77CBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		52605A936C3EACCF75C290E7B1722B83 /* Pods-React-Core_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E1D3DBDA213C0ED80ACC316C4BEF12E /* Pods-React-Core_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59BEB7EE1A3BE1064CBF3F561EE11DFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A1DE6C955DE03A519526667F91FE69E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		ABAD71ECCD8AEDDF61B6D6DE5BAF37D5 /* Pods-React-Core_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8BC29571326745A064510494B2D48E /* Pods-React-Core_Example-dummy.m */; };
+		B80D336CA2E41A94060D07B8CDB9E89E /* React-Core-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B52DE195627A1F8B18488E2299FEDDE /* React-Core-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDDED4E732C88D944208E23E90E2E880 /* Pods-React-Core_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 636CAFAB6D7ADA2D5CBDA5ACEB764BE0 /* Pods-React-Core_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E553EFA9FBC063C67CB1CE397A9DE3CB /* Pods-React-Core_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 209F7E069E8CD5447CBAFDDC131F59B1 /* Pods-React-Core_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		311DD481FF9A375C48EDD02BECE5DF0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1723A7CC473F90529AE51E7E87A2958;
+			remoteInfo = "Pods-React-Core_Example";
+		};
+		B3EB7AA9C898EFB10C429B4AA4C95F14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ACAA9BE580DD31A5CB9D97C45D9492D;
+			remoteInfo = "React-Core";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BB576A9762D7835A315C4D798E2C74A /* Pods-React-Core_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-React-Core_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		209F7E069E8CD5447CBAFDDC131F59B1 /* Pods-React-Core_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-React-Core_Tests-dummy.m"; sourceTree = "<group>"; };
+		261DCB2A0F94C7E4CC20127523A76C45 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = "React-Core/Classes/ReplaceMe.m"; sourceTree = "<group>"; };
+		28EEAE582856D58268C928B73197A536 /* React-Core-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "React-Core-Info.plist"; sourceTree = "<group>"; };
+		31276C2C1316683C90B8236542FB6F28 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3271C36E98B706DB28C85B54C0B293B0 /* Pods-React-Core_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-React-Core_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		33F5F5775C703648823FFE83A27710D3 /* Pods-React-Core_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-React-Core_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3B52DE195627A1F8B18488E2299FEDDE /* React-Core-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "React-Core-umbrella.h"; sourceTree = "<group>"; };
+		4B3BA694A4906270B5BB8E7BB0F6D6BE /* Pods-React-Core_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-React-Core_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4E1D3DBDA213C0ED80ACC316C4BEF12E /* Pods-React-Core_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-React-Core_Example-umbrella.h"; sourceTree = "<group>"; };
+		4EE40790EC22D6AA0B59F84E22BFF095 /* Pods-React-Core_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-React-Core_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5DD16E658DC44088AF157AA394E88F37 /* Pods-React-Core_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-React-Core_Tests.modulemap"; sourceTree = "<group>"; };
+		636CAFAB6D7ADA2D5CBDA5ACEB764BE0 /* Pods-React-Core_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-React-Core_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6957C692B7D4186C325458F07576830E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6A469B39A1EEF91681FADAA90FC98445 /* React-Core.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "React-Core.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8668D903DBEFB512C257C1CBF99E8A6F /* React-Core.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "React-Core.modulemap"; sourceTree = "<group>"; };
+		9172477ECADF2E904128B8FAFC12BAE5 /* React-Core.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "React-Core.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1F76996EB18B3B95CFD9219C5955368 /* React-Core-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "React-Core-dummy.m"; sourceTree = "<group>"; };
+		BC29AD422EC1FDC02C4DA86381B0B7D3 /* Pods-React-Core_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-React-Core_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BD71E2539823621820F84384064C253A /* React_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = React_Core.framework; path = "React-Core.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD97BBBA7B5F8F76AD0DCD5E494D8A78 /* Pods-React-Core_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-React-Core_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C033EEE6AAA99DE95C60B336C737B125 /* Pods_React_Core_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_React_Core_Tests.framework; path = "Pods-React-Core_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67591AF4DC5AF052BC3B590032A2AB1 /* Pods-React-Core_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-React-Core_Example.modulemap"; sourceTree = "<group>"; };
+		C94A60E92A9A254F4909B42FEA067755 /* Pods-React-Core_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-React-Core_Tests-Info.plist"; sourceTree = "<group>"; };
+		CA8BC29571326745A064510494B2D48E /* Pods-React-Core_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-React-Core_Example-dummy.m"; sourceTree = "<group>"; };
+		EEE13A65FA18CDD07FB98044FA550D9F /* Pods-React-Core_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-React-Core_Example-Info.plist"; sourceTree = "<group>"; };
+		F10D43952B7ACCBCC1973D93AF983FC6 /* Pods_React_Core_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_React_Core_Example.framework; path = "Pods-React-Core_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C88B891FD94523F64515EB0F05C509 /* Pods-React-Core_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-React-Core_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F58DC6DD1F94FB368C55CD2158C35480 /* React-Core-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "React-Core-prefix.pch"; sourceTree = "<group>"; };
+		FEA6014F6EEBFCB5B689F0899D97D288 /* Pods-React-Core_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-React-Core_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DFA45765F544AD430D946F8AAF34682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1DE6C955DE03A519526667F91FE69E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F69FA1DC69572EDD11F7833BFDBB74B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BEB7EE1A3BE1064CBF3F561EE11DFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE9FFE53E19137C454154467B163ED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38ED3CD585F7119F42F2989ABAD77CBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16EABE91E64BA131BEAB5D9BF38438EA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6793224C1D3C77CCE8D024657D21933F /* Pods-React-Core_Example */,
+				98A428C317172C1CFF80D626EBD499C2 /* Pods-React-Core_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3190743A0DD1E197B555AFDEDDA124A1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8668D903DBEFB512C257C1CBF99E8A6F /* React-Core.modulemap */,
+				9172477ECADF2E904128B8FAFC12BAE5 /* React-Core.xcconfig */,
+				A1F76996EB18B3B95CFD9219C5955368 /* React-Core-dummy.m */,
+				28EEAE582856D58268C928B73197A536 /* React-Core-Info.plist */,
+				F58DC6DD1F94FB368C55CD2158C35480 /* React-Core-prefix.pch */,
+				3B52DE195627A1F8B18488E2299FEDDE /* React-Core-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/React-Core";
+			sourceTree = "<group>";
+		};
+		6793224C1D3C77CCE8D024657D21933F /* Pods-React-Core_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C67591AF4DC5AF052BC3B590032A2AB1 /* Pods-React-Core_Example.modulemap */,
+				0BB576A9762D7835A315C4D798E2C74A /* Pods-React-Core_Example-acknowledgements.markdown */,
+				BC29AD422EC1FDC02C4DA86381B0B7D3 /* Pods-React-Core_Example-acknowledgements.plist */,
+				CA8BC29571326745A064510494B2D48E /* Pods-React-Core_Example-dummy.m */,
+				FEA6014F6EEBFCB5B689F0899D97D288 /* Pods-React-Core_Example-frameworks.sh */,
+				EEE13A65FA18CDD07FB98044FA550D9F /* Pods-React-Core_Example-Info.plist */,
+				4E1D3DBDA213C0ED80ACC316C4BEF12E /* Pods-React-Core_Example-umbrella.h */,
+				4B3BA694A4906270B5BB8E7BB0F6D6BE /* Pods-React-Core_Example.debug.xcconfig */,
+				BD97BBBA7B5F8F76AD0DCD5E494D8A78 /* Pods-React-Core_Example.release.xcconfig */,
+			);
+			name = "Pods-React-Core_Example";
+			path = "Target Support Files/Pods-React-Core_Example";
+			sourceTree = "<group>";
+		};
+		94778668458CD84C31C0E61E1C806105 /* React-Core */ = {
+			isa = PBXGroup;
+			children = (
+				261DCB2A0F94C7E4CC20127523A76C45 /* ReplaceMe.m */,
+				E3637669292571B5EA65633E4C3FB24E /* Pod */,
+				3190743A0DD1E197B555AFDEDDA124A1 /* Support Files */,
+			);
+			name = "React-Core";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		98A428C317172C1CFF80D626EBD499C2 /* Pods-React-Core_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5DD16E658DC44088AF157AA394E88F37 /* Pods-React-Core_Tests.modulemap */,
+				33F5F5775C703648823FFE83A27710D3 /* Pods-React-Core_Tests-acknowledgements.markdown */,
+				3271C36E98B706DB28C85B54C0B293B0 /* Pods-React-Core_Tests-acknowledgements.plist */,
+				209F7E069E8CD5447CBAFDDC131F59B1 /* Pods-React-Core_Tests-dummy.m */,
+				C94A60E92A9A254F4909B42FEA067755 /* Pods-React-Core_Tests-Info.plist */,
+				636CAFAB6D7ADA2D5CBDA5ACEB764BE0 /* Pods-React-Core_Tests-umbrella.h */,
+				F3C88B891FD94523F64515EB0F05C509 /* Pods-React-Core_Tests.debug.xcconfig */,
+				4EE40790EC22D6AA0B59F84E22BFF095 /* Pods-React-Core_Tests.release.xcconfig */,
+			);
+			name = "Pods-React-Core_Tests";
+			path = "Target Support Files/Pods-React-Core_Tests";
+			sourceTree = "<group>";
+		};
+		B3EFC7C68FCDC9C30480D66019EB7E16 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94778668458CD84C31C0E61E1C806105 /* React-Core */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B3EFC7C68FCDC9C30480D66019EB7E16 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D694CC4855FC8A0C1D570C0762A57513 /* Products */,
+				16EABE91E64BA131BEAB5D9BF38438EA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D694CC4855FC8A0C1D570C0762A57513 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F10D43952B7ACCBCC1973D93AF983FC6 /* Pods_React_Core_Example.framework */,
+				C033EEE6AAA99DE95C60B336C737B125 /* Pods_React_Core_Tests.framework */,
+				BD71E2539823621820F84384064C253A /* React_Core.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3637669292571B5EA65633E4C3FB24E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				31276C2C1316683C90B8236542FB6F28 /* LICENSE */,
+				6A469B39A1EEF91681FADAA90FC98445 /* React-Core.podspec */,
+				6957C692B7D4186C325458F07576830E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		90F52644D87641AA1ECCC8CA40C71439 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52605A936C3EACCF75C290E7B1722B83 /* Pods-React-Core_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55A12A547BE5B16CA3A0087EBF1F467 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDED4E732C88D944208E23E90E2E880 /* Pods-React-Core_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F2314EE0D669A492EC3028FFF9DC58 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80D336CA2E41A94060D07B8CDB9E89E /* React-Core-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7ACAA9BE580DD31A5CB9D97C45D9492D /* React-Core */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E2283C088CB7EE8437BDF811C42C6A2 /* Build configuration list for PBXNativeTarget "React-Core" */;
+			buildPhases = (
+				E3F2314EE0D669A492EC3028FFF9DC58 /* Headers */,
+				284D0613D90A2CF3529022C5BB93A3B4 /* Sources */,
+				DDE9FFE53E19137C454154467B163ED9 /* Frameworks */,
+				136B7941F80E564F6DE5D3CDA89AAFF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "React-Core";
+			productName = "React-Core";
+			productReference = BD71E2539823621820F84384064C253A /* React_Core.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6079F84A1E5363C6FB4A3931E5AB26A /* Pods-React-Core_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7C18F95D3E8C39F9AF7423DE4A27236 /* Build configuration list for PBXNativeTarget "Pods-React-Core_Tests" */;
+			buildPhases = (
+				B55A12A547BE5B16CA3A0087EBF1F467 /* Headers */,
+				843491521DADFF97916DE3C76C01112F /* Sources */,
+				2DFA45765F544AD430D946F8AAF34682 /* Frameworks */,
+				940CD4F17EF20D1A79CDEBF5692B0873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65989944F7937262A7FAA27B5D938E6D /* PBXTargetDependency */,
+			);
+			name = "Pods-React-Core_Tests";
+			productName = "Pods-React-Core_Tests";
+			productReference = C033EEE6AAA99DE95C60B336C737B125 /* Pods_React_Core_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E1723A7CC473F90529AE51E7E87A2958 /* Pods-React-Core_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98872DB03E4E781FAEE64D1F49999F67 /* Build configuration list for PBXNativeTarget "Pods-React-Core_Example" */;
+			buildPhases = (
+				90F52644D87641AA1ECCC8CA40C71439 /* Headers */,
+				F14D990A8978AA8216AE4322F46C25E1 /* Sources */,
+				3F69FA1DC69572EDD11F7833BFDBB74B /* Frameworks */,
+				818B9C69B9BE0CCA431C26C2B80D3AF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA4EB65A17B3C6C7C44786E963E49C9D /* PBXTargetDependency */,
+			);
+			name = "Pods-React-Core_Example";
+			productName = "Pods-React-Core_Example";
+			productReference = F10D43952B7ACCBCC1973D93AF983FC6 /* Pods_React_Core_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D694CC4855FC8A0C1D570C0762A57513 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1723A7CC473F90529AE51E7E87A2958 /* Pods-React-Core_Example */,
+				D6079F84A1E5363C6FB4A3931E5AB26A /* Pods-React-Core_Tests */,
+				7ACAA9BE580DD31A5CB9D97C45D9492D /* React-Core */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		136B7941F80E564F6DE5D3CDA89AAFF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		818B9C69B9BE0CCA431C26C2B80D3AF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940CD4F17EF20D1A79CDEBF5692B0873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		284D0613D90A2CF3529022C5BB93A3B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3577728E6391A360272C5789CC6B25AA /* React-Core-dummy.m in Sources */,
+				02FFD6C2E130E5DF0CECE1D45B834B98 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843491521DADFF97916DE3C76C01112F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E553EFA9FBC063C67CB1CE397A9DE3CB /* Pods-React-Core_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14D990A8978AA8216AE4322F46C25E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAD71ECCD8AEDDF61B6D6DE5BAF37D5 /* Pods-React-Core_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65989944F7937262A7FAA27B5D938E6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-React-Core_Example";
+			target = E1723A7CC473F90529AE51E7E87A2958 /* Pods-React-Core_Example */;
+			targetProxy = 311DD481FF9A375C48EDD02BECE5DF0C /* PBXContainerItemProxy */;
+		};
+		AA4EB65A17B3C6C7C44786E963E49C9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "React-Core";
+			target = 7ACAA9BE580DD31A5CB9D97C45D9492D /* React-Core */;
+			targetProxy = B3EB7AA9C898EFB10C429B4AA4C95F14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00047E93F68F1B20B623BC1EDEF704CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B3BA694A4906270B5BB8E7BB0F6D6BE /* Pods-React-Core_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-React-Core_Example/Pods-React-Core_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-React-Core_Example/Pods-React-Core_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		129619AEBB5AFB552C4666D7E7CD024F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EE40790EC22D6AA0B59F84E22BFF095 /* Pods-React-Core_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-React-Core_Tests/Pods-React-Core_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-React-Core_Tests/Pods-React-Core_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43BC73D0389143AB7919793C7F348109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3C88B891FD94523F64515EB0F05C509 /* Pods-React-Core_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-React-Core_Tests/Pods-React-Core_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-React-Core_Tests/Pods-React-Core_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		66DFEC1EE74BC7AD475583CCE977A808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9172477ECADF2E904128B8FAFC12BAE5 /* React-Core.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/React-Core/React-Core-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/React-Core/React-Core-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/React-Core/React-Core.modulemap";
+				PRODUCT_MODULE_NAME = React_Core;
+				PRODUCT_NAME = React_Core;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AAD8AA0821632268BCF0AC3E4E3BA346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9172477ECADF2E904128B8FAFC12BAE5 /* React-Core.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/React-Core/React-Core-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/React-Core/React-Core-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/React-Core/React-Core.modulemap";
+				PRODUCT_MODULE_NAME = React_Core;
+				PRODUCT_NAME = React_Core;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD427B159D4C80A11071E55639FFE85A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD97BBBA7B5F8F76AD0DCD5E494D8A78 /* Pods-React-Core_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-React-Core_Example/Pods-React-Core_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-React-Core_Example/Pods-React-Core_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E2283C088CB7EE8437BDF811C42C6A2 /* Build configuration list for PBXNativeTarget "React-Core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD8AA0821632268BCF0AC3E4E3BA346 /* Debug */,
+				66DFEC1EE74BC7AD475583CCE977A808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98872DB03E4E781FAEE64D1F49999F67 /* Build configuration list for PBXNativeTarget "Pods-React-Core_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00047E93F68F1B20B623BC1EDEF704CF /* Debug */,
+				CD427B159D4C80A11071E55639FFE85A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7C18F95D3E8C39F9AF7423DE4A27236 /* Build configuration list for PBXNativeTarget "Pods-React-Core_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43BC73D0389143AB7919793C7F348109 /* Debug */,
+				129619AEBB5AFB552C4666D7E7CD024F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
